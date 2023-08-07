@@ -55,7 +55,7 @@ app_ui = ui.page_navbar(
     ui.nav(ui.a("WeatherAPI", href="https://openweathermap.org/api")),
     ui.nav(ui.a("OneCallAPI", href="https://openweathermap.org/api/one-call-3")),
     ui.nav(ui.a("File_Reader", href="https://shiny.rstudio.com/py/api/reactive.file_reader.html")),
-    title=ui.h1("A. C. Coffin Dashboard"),
+    title=ui.h1("A.C. Coffin Dashboard"),
 )
 
 
