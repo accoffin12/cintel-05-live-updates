@@ -27,9 +27,8 @@ logger, log_filename = setup_logger(__file__)
 def lookup_ticker(company):
     stocks_dictionary = {
         "Tesla Inc": "TSLA",
-        "General Motors Company": "GM",
-        "Toyota Motor Corporation": "TM",
         "Ford Motor Company": "F",
+        "Ferrari": "RACE",
         "Honda Motor Co": "HMC",
     }
     ticker = stocks_dictionary[company]
@@ -42,9 +41,20 @@ async def get_stock_price(ticker):
     logger.info(f"Calling fetch_from_url for {stock_api_url}")
     result = await fetch_from_url(stock_api_url, "json")
     logger.info(f'Data from yahoofinance: {result}')
-    price = result.data['optionChain']['result'][0]['quote']['regularMarketPrice']
+    new_price = result.data['optionChain']['result'][0]['quote']['regularMarketPrice']
     # price = randint(132, 148)   # Use to test code without calling API
-    return price
+    return new_price
+
+# Price to Book
+async def get_daily_low(ticker):
+    logger.info(f"Calling get_price_to_book for {ticker}")
+    stock_api_url = f'https://query1.finance.yahoo.com/v7/finance/options/{ticker}'
+    logger.info(f"Calling fetch from url for {stock_api_url}")
+    result = await fetch_from_url(stock_api_url, "json")
+    logger.info(f"Data from yahoofinance: {result}")
+    daily_low = result.data["optionChain"]["result"][0]["quote"]["regularMarketDayLow"]
+    return daily_low
+
 
 # Create or overwrite CSV with column headings
 def init_stock_csv_file(file_path):
@@ -57,9 +67,8 @@ async def update_csv_stock():
     try:
         companies = [
             "Tesla Inc",
-            "General Motors Company",
-            "Toyota Motor Corporation",
             "Ford Motor Company",
+            "Ferrari",
             "Honda Motor Co",
         ]
         update_interval = 60  # Update every 1 minute (60 seconds)
@@ -83,13 +92,15 @@ async def update_csv_stock():
         for _ in range(num_updates):  # To get num_updates readings
             for company in companies:
                 ticker = lookup_ticker(company)
-                new_price = await get_stock_price(ticker)
+                price = await get_stock_price(ticker)
+                daily_low = await get_daily_low(ticker)
                 time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # Current time
                 new_record = {
                     "Company": company,
                     "Ticker": ticker,
                     "Time": time_now,
-                    "Price": new_price,
+                    "Price": price,
+                    "Lowest_Price": daily_low, # adding price to book
                 }
                 records_deque.append(new_record)
 

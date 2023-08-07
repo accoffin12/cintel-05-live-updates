@@ -1,8 +1,8 @@
 # Continuous Intelligence App
 
-- Repository: [cintel-05-live-updates](https://github.com/denisecase/cintel-05-live-updates)
-- Website: [cintel-05-live-updates](https://denisecase.github.io/cintel-05-live-updates/)
-- Author: [Denise Case](https://github.com/denisecase)
+- Repository: [cintel-05-live-updates](https://github.com/accoffin12/cintel-05-live-updates)
+- Website: [cintel-05-live-updates](https://accoffin12.github.io/cintel-05-live-updates/)
+- Author: [Alexandra Coffin](https://github.com/accoffin12)
 
 -----
 
@@ -116,3 +116,4 @@ Before pushing to GitHub, login to [shinyapps.io](https://www.shinyapps.io/) and
 
 - First archive the app.
 - Then delete the archived app.
+

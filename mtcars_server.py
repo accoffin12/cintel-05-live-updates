@@ -38,6 +38,7 @@ from plotnine import aes, geom_point, ggplot, ggtitle
 import plotly.express as px
 from shiny import render, reactive
 from shinywidgets import render_widget
+from shiny.types import ImgData
 
 # Local Imports
 from mtcars_get_basics import get_mtcars_df
@@ -235,6 +236,25 @@ def get_mtcars_server_functions(input, output, session):
         logger.info(f"{message}")
         return message
     
+    # Creating the low 
+    @output
+    @render.text
+    def mtcars_stock_low():
+        "Return a string based on selected stock."
+        logger.info("mtcars_price_daily_low starting")
+        selected = reactive_stock.get()
+        df = get_mtcars_stock_df()
+        logger.info(f"Reading df len {len(df)}")
+        df_stocks = df[df["Company"] == reactive_stock.get()]
+        logger.info(f"Rendering Price table with {len(df_stocks)} rows")
+        df_stocks_low = df_stocks["Price"].min()
+        logger.info(f"Reading df_stocks_low {df_stocks_low}")
+        message = f"The daily low for {selected} is {df_stocks_low}."
+        logger.info(f"{message}")
+
+        return message
+    
+    
     @output
     @render.table
     def mtcars_stock_table():
@@ -270,7 +290,8 @@ def get_mtcars_server_functions(input, output, session):
         mtcars_location_table,
         mtcars_location_chart,
         mtcars_stock_string,
-         mtcars_stock_table,
+        mtcars_stock_low,
+        mtcars_stock_table,
         mtcars_stock_chart
     ]
 

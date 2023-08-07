@@ -1,11 +1,5 @@
-Company,Ticker,Time,Price
-Tesla Inc,TSLA,2023-08-06 19:34:36,253.86
-General Motors Company,GM,2023-08-06 19:34:36,36.57
-Toyota Motor Corporation,TM,2023-08-06 19:34:36,170.79
-Ford Motor Company,F,2023-08-06 19:34:37,12.89
-Honda Motor Co,HMC,2023-08-06 19:34:37,30.85
-Tesla Inc,TSLA,2023-08-06 19:35:37,253.86
-General Motors Company,GM,2023-08-06 19:35:37,36.57
-Toyota Motor Corporation,TM,2023-08-06 19:35:38,170.79
-Ford Motor Company,F,2023-08-06 19:35:38,12.89
-Honda Motor Co,HMC,2023-08-06 19:35:38,30.85
+Company,Ticker,Time,Price,Lowest_Price
+Tesla Inc,TSLA,2023-08-06 22:51:33,253.86,253.11
+Ford Motor Company,F,2023-08-06 22:51:33,12.89,12.8
+Ferrari,RACE,2023-08-06 22:51:34,311.45,311.25
+Honda Motor Co,HMC,2023-08-06 22:51:35,30.85,30.815

@@ -1,84 +1,62 @@
-2023-08-06 19:32:56,265.mtcars_server.INFO =============================================================
-2023-08-06 19:32:56,265.mtcars_server.INFO Today is 2023-08-06 at 07:32 PM
-2023-08-06 19:32:56,265.mtcars_server.INFO This file is running on: nt Windows 10
-2023-08-06 19:32:56,265.mtcars_server.INFO The Python version is: 3.11.4
-2023-08-06 19:32:56,265.mtcars_server.INFO The active environment path is:   C:\Users\Tower\AppData\Local\Programs\Python\Python311
-2023-08-06 19:32:56,265.mtcars_server.INFO The current working directory is: C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates
-2023-08-06 19:32:56,269.mtcars_server.INFO =============================================================
-2023-08-06 19:34:02,861.mtcars_server.DEBUG filter message: Showing 32 of 32 records
-2023-08-06 19:34:03,310.mtcars_server.INFO Starting mtcars_output_widget1
-2023-08-06 19:34:14,063.mtcars_server.INFO Starting mtcars_plot1
-2023-08-06 19:34:30,613.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_location.csv
-2023-08-06 19:34:30,625.mtcars_server.INFO READING df len 3
-2023-08-06 19:34:30,625.mtcars_server.INFO init reactive_temp_df len: 3
-2023-08-06 19:34:30,627.mtcars_server.INFO mtcars_temperature_location_string starting
-2023-08-06 19:34:30,627.mtcars_server.INFO Recent Temperature in F for ELY MN.
+2023-08-06 22:51:26,150.mtcars_server.INFO =============================================================
+2023-08-06 22:51:26,150.mtcars_server.INFO Today is 2023-08-06 at 10:51 PM
+2023-08-06 22:51:26,150.mtcars_server.INFO This file is running on: nt Windows 10
+2023-08-06 22:51:26,150.mtcars_server.INFO The Python version is: 3.11.4
+2023-08-06 22:51:26,150.mtcars_server.INFO The active environment path is:   C:\Users\Tower\AppData\Local\Programs\Python\Python311
+2023-08-06 22:51:26,153.mtcars_server.INFO The current working directory is: C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates
+2023-08-06 22:51:26,153.mtcars_server.INFO =============================================================
+2023-08-06 22:51:29,169.mtcars_server.DEBUG filter message: Showing 32 of 32 records
+2023-08-06 22:51:29,273.mtcars_server.INFO Starting mtcars_output_widget1
+2023-08-06 22:51:29,950.mtcars_server.INFO Starting mtcars_plot1
+2023-08-06 22:51:31,438.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_location.csv
+2023-08-06 22:51:31,438.mtcars_server.INFO READING df len 3
+2023-08-06 22:51:31,438.mtcars_server.INFO init reactive_temp_df len: 3
+2023-08-06 22:51:31,438.mtcars_server.INFO mtcars_temperature_location_string starting
+2023-08-06 22:51:31,438.mtcars_server.INFO Recent Temperature in F for ELY MN.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-08-06 19:34:30,629.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-08-06 19:34:30,633.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-08-06 19:34:30,936.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_stock.csv
-2023-08-06 19:34:30,950.mtcars_server.INFO READING df len 5
-2023-08-06 19:34:30,951.mtcars_server.INFO init reactive_stock_df len: 5
-2023-08-06 19:34:30,952.mtcars_server.INFO mtcars_price_company_string starting
-2023-08-06 19:34:30,952.mtcars_server.INFO Recent Stock Price in USD for Tesla Inc.
+2023-08-06 22:51:31,450.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-08-06 22:51:31,454.mtcars_server.INFO Rendering TEMP chart with 1 points
+2023-08-06 22:51:31,534.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_stock.csv
+2023-08-06 22:51:31,537.mtcars_server.INFO READING df len 4
+2023-08-06 22:51:31,537.mtcars_server.INFO init reactive_stock_df len: 4
+2023-08-06 22:51:31,538.mtcars_server.INFO mtcars_price_company_string starting
+2023-08-06 22:51:31,538.mtcars_server.INFO Recent Stock Price in USD for Tesla Inc.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-08-06 19:34:30,954.mtcars_server.INFO Rendering PRICE table with 1 rows
-2023-08-06 19:34:32,859.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_location.csv
-2023-08-06 19:34:32,875.mtcars_server.INFO READING df len 3
-2023-08-06 19:34:32,878.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-08-06 19:34:32,884.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-08-06 19:34:32,980.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_stock.csv
-2023-08-06 19:34:32,992.mtcars_server.INFO READING df len 5
-2023-08-06 19:34:32,993.mtcars_server.INFO Rendering PRICE table with 1 rows
-2023-08-06 19:34:33,000.mtcars_server.INFO Starting mtcars_plot1
-2023-08-06 19:34:33,742.mtcars_server.INFO Starting mtcars_plot1
-2023-08-06 19:34:34,658.mtcars_server.DEBUG filter message: Showing 32 of 32 records
-2023-08-06 19:34:34,671.mtcars_server.INFO Starting mtcars_output_widget1
-2023-08-06 19:34:34,748.mtcars_server.INFO Starting mtcars_plot1
-2023-08-06 19:34:35,528.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_location.csv
-2023-08-06 19:34:35,545.mtcars_server.INFO READING df len 3
-2023-08-06 19:34:35,545.mtcars_server.INFO init reactive_temp_df len: 3
-2023-08-06 19:34:35,545.mtcars_server.INFO mtcars_temperature_location_string starting
-2023-08-06 19:34:35,547.mtcars_server.INFO Recent Temperature in F for ELY MN.
+2023-08-06 22:51:31,539.mtcars_server.INFO mtcars_price_daily_low starting
+2023-08-06 22:51:31,540.mtcars_server.INFO Reading df len 4
+2023-08-06 22:51:31,541.mtcars_server.INFO Rendering Price table with 1 rows
+2023-08-06 22:51:31,541.mtcars_server.INFO Reading df_stocks_low 253.86
+2023-08-06 22:51:31,541.mtcars_server.INFO The daily low for Tesla Inc is 253.86.
+2023-08-06 22:51:31,543.mtcars_server.INFO Rendering PRICE table with 1 rows
+2023-08-06 22:51:35,158.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_location.csv
+2023-08-06 22:51:35,175.mtcars_server.INFO READING df len 3
+2023-08-06 22:51:35,177.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-08-06 22:51:35,183.mtcars_server.INFO Rendering TEMP chart with 1 points
+2023-08-06 22:51:35,278.mtcars_server.INFO mtcars_price_daily_low starting
+2023-08-06 22:51:35,278.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_stock.csv
+2023-08-06 22:51:35,289.mtcars_server.INFO READING df len 4
+2023-08-06 22:51:35,289.mtcars_server.INFO Reading df len 4
+2023-08-06 22:51:35,290.mtcars_server.INFO Rendering Price table with 1 rows
+2023-08-06 22:51:35,291.mtcars_server.INFO Reading df_stocks_low 253.86
+2023-08-06 22:51:35,291.mtcars_server.INFO The daily low for Tesla Inc is 253.86.
+2023-08-06 22:51:35,293.mtcars_server.INFO Rendering PRICE table with 1 rows
+2023-08-06 22:51:38,538.mtcars_server.INFO init reactive_stock_df len: 4
+2023-08-06 22:51:38,539.mtcars_server.INFO mtcars_price_company_string starting
+2023-08-06 22:51:38,539.mtcars_server.INFO Recent Stock Price in USD for Ferrari.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-08-06 19:34:35,550.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-08-06 19:34:35,554.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-08-06 19:34:35,625.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_stock.csv
-2023-08-06 19:34:35,627.mtcars_server.INFO READING df len 5
-2023-08-06 19:34:35,627.mtcars_server.INFO init reactive_stock_df len: 5
-2023-08-06 19:34:35,628.mtcars_server.INFO mtcars_price_company_string starting
-2023-08-06 19:34:35,629.mtcars_server.INFO Recent Stock Price in USD for Tesla Inc.
+2023-08-06 22:51:38,540.mtcars_server.INFO mtcars_price_daily_low starting
+2023-08-06 22:51:38,541.mtcars_server.INFO Reading df len 4
+2023-08-06 22:51:38,542.mtcars_server.INFO Rendering Price table with 1 rows
+2023-08-06 22:51:38,542.mtcars_server.INFO Reading df_stocks_low 311.45
+2023-08-06 22:51:38,542.mtcars_server.INFO The daily low for Ferrari is 311.45.
+2023-08-06 22:51:38,544.mtcars_server.INFO Rendering PRICE table with 1 rows
+2023-08-06 22:51:41,034.mtcars_server.INFO init reactive_temp_df len: 3
+2023-08-06 22:51:41,035.mtcars_server.INFO mtcars_temperature_location_string starting
+2023-08-06 22:51:41,036.mtcars_server.INFO Recent Temperature in F for Death Valley CA.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-08-06 19:34:35,631.mtcars_server.INFO Rendering PRICE table with 1 rows
-2023-08-06 19:34:37,304.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_location.csv
-2023-08-06 19:34:37,321.mtcars_server.INFO READING df len 3
-2023-08-06 19:34:37,323.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-08-06 19:34:37,329.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-08-06 19:34:37,429.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_stock.csv
-2023-08-06 19:34:37,437.mtcars_server.INFO READING df len 5
-2023-08-06 19:34:37,438.mtcars_server.INFO Rendering PRICE table with 1 rows
-2023-08-06 19:34:50,399.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_location.csv
-2023-08-06 19:34:50,413.mtcars_server.INFO READING df len 6
-2023-08-06 19:34:50,414.mtcars_server.INFO Rendering TEMP table with 2 rows
-2023-08-06 19:34:50,418.mtcars_server.INFO Rendering TEMP chart with 2 points
-2023-08-06 19:34:53,929.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_stock.csv
-2023-08-06 19:34:53,937.mtcars_server.INFO READING df len 10
-2023-08-06 19:34:53,937.mtcars_server.INFO Rendering PRICE table with 2 rows
-2023-08-06 19:35:31,222.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_location.csv
-2023-08-06 19:35:31,242.mtcars_server.INFO READING df len 6
-2023-08-06 19:35:31,245.mtcars_server.INFO Rendering TEMP table with 2 rows
-2023-08-06 19:35:31,255.mtcars_server.INFO Rendering TEMP chart with 2 points
-2023-08-06 19:35:34,591.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_stock.csv
-2023-08-06 19:35:34,611.mtcars_server.INFO READING df len 10
-2023-08-06 19:35:34,613.mtcars_server.INFO Rendering PRICE table with 2 rows
-2023-08-06 19:35:36,644.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_location.csv
-2023-08-06 19:35:36,664.mtcars_server.INFO READING df len 6
-2023-08-06 19:35:36,667.mtcars_server.INFO Rendering TEMP table with 2 rows
-2023-08-06 19:35:36,673.mtcars_server.INFO Rendering TEMP chart with 2 points
-2023-08-06 19:35:38,731.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_stock.csv
-2023-08-06 19:35:38,747.mtcars_server.INFO READING df len 10
-2023-08-06 19:35:38,748.mtcars_server.INFO Rendering PRICE table with 2 rows
+2023-08-06 22:51:41,038.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-08-06 22:51:41,042.mtcars_server.INFO Rendering TEMP chart with 1 points
