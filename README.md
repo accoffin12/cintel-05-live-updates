@@ -1,7 +1,7 @@
 # Continuous Intelligence App
 
 - Repository: [cintel-05-live-updates](https://github.com/accoffin12/cintel-05-live-updates)
-- Website: [cintel-05-live-updates](https://accoffin12.github.io/cintel-05-live-updates/)
+- Website: [cintel-05-live-updates](https://accoffin12.shinyapps.io/cintel-05-live-updates/)
 - Author: [Alexandra Coffin](https://github.com/accoffin12)
 
 -----
