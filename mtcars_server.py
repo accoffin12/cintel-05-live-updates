@@ -245,6 +245,7 @@ def get_mtcars_server_functions(input, output, session):
         selected = reactive_stock.get()
         df = get_mtcars_stock_df()
         logger.info(f"Reading df len {len(df)}")
+        # Filter the data based on the selected stock
         df_stocks = df[df["Company"] == reactive_stock.get()]
         logger.info(f"Rendering Price table with {len(df_stocks)} rows")
         df_stocks_low = df_stocks["Price"].min()

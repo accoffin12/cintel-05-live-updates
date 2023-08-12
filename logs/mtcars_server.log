@@ -1,62 +1,85 @@
-2023-08-06 22:51:26,150.mtcars_server.INFO =============================================================
-2023-08-06 22:51:26,150.mtcars_server.INFO Today is 2023-08-06 at 10:51 PM
-2023-08-06 22:51:26,150.mtcars_server.INFO This file is running on: nt Windows 10
-2023-08-06 22:51:26,150.mtcars_server.INFO The Python version is: 3.11.4
-2023-08-06 22:51:26,150.mtcars_server.INFO The active environment path is:   C:\Users\Tower\AppData\Local\Programs\Python\Python311
-2023-08-06 22:51:26,153.mtcars_server.INFO The current working directory is: C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates
-2023-08-06 22:51:26,153.mtcars_server.INFO =============================================================
-2023-08-06 22:51:29,169.mtcars_server.DEBUG filter message: Showing 32 of 32 records
-2023-08-06 22:51:29,273.mtcars_server.INFO Starting mtcars_output_widget1
-2023-08-06 22:51:29,950.mtcars_server.INFO Starting mtcars_plot1
-2023-08-06 22:51:31,438.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_location.csv
-2023-08-06 22:51:31,438.mtcars_server.INFO READING df len 3
-2023-08-06 22:51:31,438.mtcars_server.INFO init reactive_temp_df len: 3
-2023-08-06 22:51:31,438.mtcars_server.INFO mtcars_temperature_location_string starting
-2023-08-06 22:51:31,438.mtcars_server.INFO Recent Temperature in F for ELY MN.
+2023-08-11 19:22:59,390.mtcars_server.INFO =============================================================
+2023-08-11 19:22:59,391.mtcars_server.INFO Today is 2023-08-11 at 07:22 PM
+2023-08-11 19:22:59,391.mtcars_server.INFO This file is running on: nt Windows 10
+2023-08-11 19:22:59,391.mtcars_server.INFO The Python version is: 3.11.4
+2023-08-11 19:22:59,391.mtcars_server.INFO The active environment path is:   C:\Users\Tower\AppData\Local\Programs\Python\Python311
+2023-08-11 19:22:59,392.mtcars_server.INFO The current working directory is: C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates
+2023-08-11 19:22:59,392.mtcars_server.INFO =============================================================
+2023-08-11 19:23:03,145.mtcars_server.DEBUG filter message: Showing 32 of 32 records
+2023-08-11 19:23:03,239.mtcars_server.INFO Starting mtcars_output_widget1
+2023-08-11 19:23:03,918.mtcars_server.INFO Starting mtcars_plot1
+2023-08-11 19:23:05,392.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_location.csv
+2023-08-11 19:23:05,400.mtcars_server.INFO READING df len 10
+2023-08-11 19:23:05,401.mtcars_server.INFO init reactive_temp_df len: 10
+2023-08-11 19:23:05,402.mtcars_server.INFO mtcars_temperature_location_string starting
+2023-08-11 19:23:05,402.mtcars_server.INFO Recent Temperature in F for ELY MN.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-08-06 22:51:31,450.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-08-06 22:51:31,454.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-08-06 22:51:31,534.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_stock.csv
-2023-08-06 22:51:31,537.mtcars_server.INFO READING df len 4
-2023-08-06 22:51:31,537.mtcars_server.INFO init reactive_stock_df len: 4
-2023-08-06 22:51:31,538.mtcars_server.INFO mtcars_price_company_string starting
-2023-08-06 22:51:31,538.mtcars_server.INFO Recent Stock Price in USD for Tesla Inc.
+2023-08-11 19:23:05,405.mtcars_server.INFO Rendering TEMP table with 3 rows
+2023-08-11 19:23:05,408.mtcars_server.INFO Rendering TEMP chart with 3 points
+2023-08-11 19:23:05,489.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_stock.csv
+2023-08-11 19:23:05,491.mtcars_server.INFO READING df len 4
+2023-08-11 19:23:05,492.mtcars_server.INFO init reactive_stock_df len: 4
+2023-08-11 19:23:05,492.mtcars_server.INFO mtcars_price_company_string starting
+2023-08-11 19:23:05,493.mtcars_server.INFO Recent Stock Price in USD for Tesla Inc.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-08-06 22:51:31,539.mtcars_server.INFO mtcars_price_daily_low starting
-2023-08-06 22:51:31,540.mtcars_server.INFO Reading df len 4
-2023-08-06 22:51:31,541.mtcars_server.INFO Rendering Price table with 1 rows
-2023-08-06 22:51:31,541.mtcars_server.INFO Reading df_stocks_low 253.86
-2023-08-06 22:51:31,541.mtcars_server.INFO The daily low for Tesla Inc is 253.86.
-2023-08-06 22:51:31,543.mtcars_server.INFO Rendering PRICE table with 1 rows
-2023-08-06 22:51:35,158.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_location.csv
-2023-08-06 22:51:35,175.mtcars_server.INFO READING df len 3
-2023-08-06 22:51:35,177.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-08-06 22:51:35,183.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-08-06 22:51:35,278.mtcars_server.INFO mtcars_price_daily_low starting
-2023-08-06 22:51:35,278.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_stock.csv
-2023-08-06 22:51:35,289.mtcars_server.INFO READING df len 4
-2023-08-06 22:51:35,289.mtcars_server.INFO Reading df len 4
-2023-08-06 22:51:35,290.mtcars_server.INFO Rendering Price table with 1 rows
-2023-08-06 22:51:35,291.mtcars_server.INFO Reading df_stocks_low 253.86
-2023-08-06 22:51:35,291.mtcars_server.INFO The daily low for Tesla Inc is 253.86.
-2023-08-06 22:51:35,293.mtcars_server.INFO Rendering PRICE table with 1 rows
-2023-08-06 22:51:38,538.mtcars_server.INFO init reactive_stock_df len: 4
-2023-08-06 22:51:38,539.mtcars_server.INFO mtcars_price_company_string starting
-2023-08-06 22:51:38,539.mtcars_server.INFO Recent Stock Price in USD for Ferrari.
+2023-08-11 19:23:05,494.mtcars_server.INFO mtcars_price_daily_low starting
+2023-08-11 19:23:05,494.mtcars_server.INFO Reading df len 4
+2023-08-11 19:23:05,495.mtcars_server.INFO Rendering Price table with 1 rows
+2023-08-11 19:23:05,496.mtcars_server.INFO Reading df_stocks_low 253.86
+2023-08-11 19:23:05,496.mtcars_server.INFO The daily low for Tesla Inc is 253.86.
+2023-08-11 19:23:05,498.mtcars_server.INFO Rendering PRICE table with 1 rows
+2023-08-11 19:23:05,501.mtcars_server.INFO Rendering PRICE chart with 1 points
+2023-08-11 19:23:09,220.mtcars_server.INFO READING df from C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates\data\mtcars_location.csv
+2023-08-11 19:23:09,240.mtcars_server.INFO READING df len 3
+2023-08-11 19:23:09,242.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-08-11 19:23:09,250.mtcars_server.INFO Rendering TEMP chart with 1 points
+2023-08-11 19:23:11,308.mtcars_server.INFO init reactive_stock_df len: 4
+2023-08-11 19:23:11,309.mtcars_server.INFO mtcars_price_company_string starting
+2023-08-11 19:23:11,310.mtcars_server.INFO Recent Stock Price in USD for MERCEDES-BENZ GROUP AG.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-08-06 22:51:38,540.mtcars_server.INFO mtcars_price_daily_low starting
-2023-08-06 22:51:38,541.mtcars_server.INFO Reading df len 4
-2023-08-06 22:51:38,542.mtcars_server.INFO Rendering Price table with 1 rows
-2023-08-06 22:51:38,542.mtcars_server.INFO Reading df_stocks_low 311.45
-2023-08-06 22:51:38,542.mtcars_server.INFO The daily low for Ferrari is 311.45.
-2023-08-06 22:51:38,544.mtcars_server.INFO Rendering PRICE table with 1 rows
-2023-08-06 22:51:41,034.mtcars_server.INFO init reactive_temp_df len: 3
-2023-08-06 22:51:41,035.mtcars_server.INFO mtcars_temperature_location_string starting
-2023-08-06 22:51:41,036.mtcars_server.INFO Recent Temperature in F for Death Valley CA.
+2023-08-11 19:23:11,311.mtcars_server.INFO mtcars_price_daily_low starting
+2023-08-11 19:23:11,311.mtcars_server.INFO Reading df len 4
+2023-08-11 19:23:11,312.mtcars_server.INFO Rendering Price table with 0 rows
+2023-08-11 19:23:11,313.mtcars_server.INFO Reading df_stocks_low nan
+2023-08-11 19:23:11,313.mtcars_server.INFO The daily low for MERCEDES-BENZ GROUP AG is nan.
+2023-08-11 19:23:11,315.mtcars_server.INFO Rendering PRICE table with 0 rows
+2023-08-11 19:23:11,318.mtcars_server.INFO Rendering PRICE chart with 0 points
+2023-08-11 19:23:28,054.mtcars_server.INFO init reactive_stock_df len: 4
+2023-08-11 19:23:28,055.mtcars_server.INFO mtcars_price_company_string starting
+2023-08-11 19:23:28,055.mtcars_server.INFO Recent Stock Price in USD for ASTON MARTIN LAGONDA GLOBAL HOL.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-08-06 22:51:41,038.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-08-06 22:51:41,042.mtcars_server.INFO Rendering TEMP chart with 1 points
+2023-08-11 19:23:28,057.mtcars_server.INFO mtcars_price_daily_low starting
+2023-08-11 19:23:28,057.mtcars_server.INFO Reading df len 4
+2023-08-11 19:23:28,058.mtcars_server.INFO Rendering Price table with 0 rows
+2023-08-11 19:23:28,059.mtcars_server.INFO Reading df_stocks_low nan
+2023-08-11 19:23:28,059.mtcars_server.INFO The daily low for ASTON MARTIN LAGONDA GLOBAL HOL is nan.
+2023-08-11 19:23:28,061.mtcars_server.INFO Rendering PRICE table with 0 rows
+2023-08-11 19:23:28,064.mtcars_server.INFO Rendering PRICE chart with 0 points
+2023-08-11 19:23:34,215.mtcars_server.INFO init reactive_stock_df len: 4
+2023-08-11 19:23:34,216.mtcars_server.INFO mtcars_price_company_string starting
+2023-08-11 19:23:34,217.mtcars_server.INFO Recent Stock Price in USD for General Motors Co.
+Updated once per minute for 15 minutes.
+Keeps the most recent 10 minutes of data.
+2023-08-11 19:23:34,218.mtcars_server.INFO mtcars_price_daily_low starting
+2023-08-11 19:23:34,218.mtcars_server.INFO Reading df len 4
+2023-08-11 19:23:34,219.mtcars_server.INFO Rendering Price table with 0 rows
+2023-08-11 19:23:34,220.mtcars_server.INFO Reading df_stocks_low nan
+2023-08-11 19:23:34,220.mtcars_server.INFO The daily low for General Motors Co is nan.
+2023-08-11 19:23:34,222.mtcars_server.INFO Rendering PRICE table with 0 rows
+2023-08-11 19:23:34,225.mtcars_server.INFO Rendering PRICE chart with 0 points
+2023-08-11 19:23:48,248.mtcars_server.INFO init reactive_stock_df len: 4
+2023-08-11 19:23:48,249.mtcars_server.INFO mtcars_price_company_string starting
+2023-08-11 19:23:48,249.mtcars_server.INFO Recent Stock Price in USD for Honda Motor Co.
+Updated once per minute for 15 minutes.
+Keeps the most recent 10 minutes of data.
+2023-08-11 19:23:48,251.mtcars_server.INFO mtcars_price_daily_low starting
+2023-08-11 19:23:48,251.mtcars_server.INFO Reading df len 4
+2023-08-11 19:23:48,252.mtcars_server.INFO Rendering Price table with 1 rows
+2023-08-11 19:23:48,253.mtcars_server.INFO Reading df_stocks_low 30.85
+2023-08-11 19:23:48,253.mtcars_server.INFO The daily low for Honda Motor Co is 30.85.
+2023-08-11 19:23:48,255.mtcars_server.INFO Rendering PRICE table with 1 rows
+2023-08-11 19:23:48,258.mtcars_server.INFO Rendering PRICE chart with 1 points

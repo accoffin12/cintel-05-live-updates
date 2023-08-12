@@ -30,6 +30,11 @@ def lookup_ticker(company):
         "Ford Motor Company": "F",
         "Ferrari": "RACE",
         "Honda Motor Co": "HMC",
+        "General Motors Company": "GM",
+        "ASTON MARTIN LAGONDA GLOBAL HOL": "AML.L",
+        "MERCEDES-BENZ GROUP AG": "MBGAF"
+
+
     }
     ticker = stocks_dictionary[company]
     return ticker
@@ -70,6 +75,9 @@ async def update_csv_stock():
             "Ford Motor Company",
             "Ferrari",
             "Honda Motor Co",
+            "McLaren Resources Inc",
+            "Aston Martin Lagonda Global Holdings Plc",
+            "Mercedes-Benz Group AG"
         ]
         update_interval = 60  # Update every 1 minute (60 seconds)
         total_runtime = 15 * 60  # Total runtime maximum of 15 minutes
