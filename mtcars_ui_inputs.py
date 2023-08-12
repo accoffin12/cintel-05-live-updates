@@ -12,7 +12,7 @@ from shiny import ui
 
 def get_mtcars_inputs():
     return ui.panel_sidebar(
-        ui.h2("MT Cars Interaction"),
+        ui.h2("Dashboard Interaction"),
         ui.tags.hr(),
         ui.input_slider(
             "MTCARS_MPG_RANGE",
@@ -24,13 +24,13 @@ def get_mtcars_inputs():
         ui.input_select(
             id="MTCARS_LOCATION_SELECT",
             label="Choose a location",
-            choices=["ELY MN", "Death Valley CA", "Maryville MO"],
+            choices=["ELY MN", "Death Valley CA", "Maryville MO", "Joplin MO", "New York City NY", "Baltimore MD"],
             selected="ELY MN",
         ),
         ui.input_select(
             id='MTCARS_STOCK_SELECT',
             label='Choose a company',
-            choices=['Tesla Inc', 'Ferrari', 'Ford Motor Company', 'Honda Motor Co', 'General Motors Co', 'MERCEDES-BENZ GROUP AG', 'ASTON MARTIN LAGONDA GLOBAL HOL'],
+            choices=['Tesla Inc', 'Ferrari', 'Ford Motor Company', 'Honda Motor Co', 'General Motor Co', 'Toyota Motor Corporation', 'Microsoft Corp', 'Amazon', 'Apple'],
             selected='Tesla',
         ),
         ui.tags.hr(),

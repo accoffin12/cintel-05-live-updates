@@ -1,10 +1,10 @@
-2023-08-11 19:22:59,398.app.INFO =============================================================
-2023-08-11 19:22:59,399.app.INFO Today is 2023-08-11 at 07:22 PM
-2023-08-11 19:22:59,400.app.INFO This file is running on: nt Windows 10
-2023-08-11 19:22:59,400.app.INFO The Python version is: 3.11.4
-2023-08-11 19:22:59,401.app.INFO The active environment path is:   C:\Users\Tower\AppData\Local\Programs\Python\Python311
-2023-08-11 19:22:59,401.app.INFO The current working directory is: C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates
-2023-08-11 19:22:59,402.app.INFO =============================================================
-2023-08-11 19:23:03,121.app.INFO Starting server ...
-2023-08-11 19:23:03,121.app.INFO Starting continuous updates ...
-2023-08-11 19:23:05,629.app.INFO Calling continuous updates ...
+2023-08-11 22:17:43,361.app.INFO =============================================================
+2023-08-11 22:17:43,361.app.INFO Today is 2023-08-11 at 10:17 PM
+2023-08-11 22:17:43,361.app.INFO This file is running on: nt Windows 10
+2023-08-11 22:17:43,361.app.INFO The Python version is: 3.11.4
+2023-08-11 22:17:43,362.app.INFO The active environment path is:   C:\Users\Tower\AppData\Local\Programs\Python\Python311
+2023-08-11 22:17:43,362.app.INFO The current working directory is: C:\Users\Tower\Documents\Continuous_ML\cintel-05-live-updates
+2023-08-11 22:17:43,362.app.INFO =============================================================
+2023-08-11 22:17:47,551.app.INFO Starting server ...
+2023-08-11 22:17:47,551.app.INFO Starting continuous updates ...
+2023-08-11 22:17:50,084.app.INFO Calling continuous updates ...
